@@ -211,8 +211,8 @@ void MovingParts::BallControl()
 		{
 			LastWin = 2;
 			P2Score++;
-			Bx = Screen_width / 2 - 10;
-			By = Screen_height / 2 - 10;
+			Bx = (float)Screen_width / 2.0f - 10.0f;
+			By = Screen_height / 2.0f - 10.0f;
 			BxVel = -5;
 			ByVel = 0;
 		}
